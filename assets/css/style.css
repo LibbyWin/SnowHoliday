@@ -1,32 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+
 /**-------------------------------NAV NAR-------------------------------**/
 
-content-to-header {
-    text-align: center!important;
-    text-decoration: none;
-    position: absolute;
-    padding: 20px 0;
-}
 
-ul,
-li {
-    margin: 0!important;
-    padding: 0;
-    display: inline-block;
-    list-style-type: none;
-}
-
-.main-header a {
-    color: red;
-    padding: 10px 5px;
-    text-decoration: none;
-    font-size: 20px;
-}
-
-.main-header a:hover {
-    color: white;
-    background-color: transparent;
-}
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Merriweather', serif;
+    color: #777777;
+}
+
+h2 {
+  font-family: Oswald; 
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  color:gray;
+  padding-left: 20px;
+}
+
+#logo {
+    float: left;
+    font-size-adjust: 280%;
+}
+
+#menu {
+    font-size: 110%;
+    list-style-type: none;
+    letter-spacing: 4px;
+}
+
+#logo, #menu {
+    line-height: 75px;
+}
+
+#menu li {
+    float: right;
+    margin-right: 30px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #777777;
+}
+
+.active {
+     border-bottom: 1px solid #777777;
 }
