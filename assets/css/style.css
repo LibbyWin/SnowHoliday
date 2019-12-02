@@ -1,0 +1,32 @@
+/**-------------------------------NAV NAR-------------------------------**/
+
+content-to-header {
+    text-align: center!important;
+    text-decoration: none;
+    position: absolute;
+    padding: 20px 0;
+}
+
+ul,
+li {
+    margin: 0!important;
+    padding: 0;
+    display: inline-block;
+    list-style-type: none;
+}
+
+.main-header a {
+    color: red;
+    padding: 10px 5px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.main-header a:hover {
+    color: white;
+    background-color: transparent;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
