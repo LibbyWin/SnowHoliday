@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./libraries/bootstrap.min.css" type="text/css" />
+
 
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
     <title>Snow Destinations</title>
@@ -15,69 +17,105 @@
 
 <body>
 
-    <!--                                NAV BAR                            -->
+    <!----------------------------------NAV BAR-------------------------------->
     <a href="index.html">
         <h2 id="logo">Snowed Under</h2>
     </a>
 
     <nav class="main-header">
         <ul id="menu">
-             <li>
+            <li>
                 <a href="#contact-us">Contact</a>
             </li>
             <li>
                 <a href="#destinations">Destinations</a>
             </li>
-            
+
             <li>
                 <a href="#about-us">About Us</a>
             </li>
             <li>
                 <a class="active" href="#home">Home</a>
             </li>
-           
         </ul>
     </nav>
 
 
-    <!--                                MAIN BODY                           -->
-    <section>
-
-        add main title part
-
+    <!---------------------------------MAIN BODY------------------------------->
+    <section id="main-body">
+        <div class="main-page">
+            <div class="snowboard_01">
+            </div>
+        </div>
     </section>
 
-    <!--                                ABOUT US                          -->
+    <!---------------------------------ABOUT US-------------------------------->
 
     <section id="about-us">
 
-        add about us info
+        <div class="container">
+            <div class="row" id='about'>
+                <h1>SNOWED UNDER</h1>
+            </div>
+            <br>
+            <p class="about-p">
+                Cant find the best holiday destination for snowboarding?
+            </p>
+            <br>
+            <p>
+                You've come to the right place!
+            </p>
+            <br>
+            <p>
+                Find the best powdered snow for your snowboarding needs!
+            </p>
+        </div>
 
     </section>
 
-    <!--                            DESTINATIONS                           -->
+    <!-------------------------------DESTINATIONS------------------------------>
 
     <section id="destinations">
 
-        add destinations
 
     </section>
 
-    <!--                                CONTACT                            -->
+    <!---------------------------------CONTACT--------------------------------->
 
-    <section is="contact">
-
-        add contact form
-
+    <section class="contact-form">
+        <div class="container">
+            <div class="contact">
+                <div class="row" id="contact">
+                    <h2 class="contact-us">Contact Us!</h2>
+                </div>
+                <form>
+                    <input type="text" id="fname" name="firstname" placeholder="First Name..." required>
+                    <input type="text" id="lname" name="lastname" placeholder="Surname..." required>
+                    <input type="text" id="email" name="email" placeholder="Email Address..." required>
+                    <textarea id="subject" name="subject" placeholder="Write Your Message Here..." style="height:250px" required></textarea>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </div>
     </section>
 
-    <!--                                FOOTER                            -->
+    <!----------------------------------FOOTER--------------------------------->
 
     <footer>
-
-        add social links
-
+        <div class="containter-fluid">
+            <div class="footer-bottom">
+                <div class="col align-self-center icons">
+                    <a href="https://www.linkedin.com/company/tuigroup/" target="_blank"><i class="fab fa-linkedin-in alignment"></i></a>
+                    <a href="https://www.facebook.com/TUIUnitedKingdom/?ref=br_rs" target="_blank"><i class="fab fa-facebook"></i></a>
+                    <a href="https://twitter.com/TUIUK?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <p class="snowedunder">Snowed Under</p>
+                </div>
+            </div>
+        </div>
     </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
 </body>
 
 </html>
