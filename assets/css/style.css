@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
 
 /**-------------------------------NAV NAR------------------------------------**/
+html {
+    scroll-behaviour: smooth;
+}
 
 body {
     font-family: 'Merriweather', serif;
@@ -94,6 +97,27 @@ p {
     text-align: center;
 }
 
+.btn {
+    padding: 15px 25px;
+    font-size: 18px;
+    transition: all 0.2s ease-in-out;
+
+}
+
+.row {
+        margin: auto;
+    max-width: 100%;
+    text-align: center;
+}
+
+.btn_primary {
+    background: #71777b;
+    color: white;
+}
+
+.btn_primary:hover {
+    transform: scale(1.10);
+}
 /**-------------------------------CONTACT BAR--------------------------------**/
 
 .contact-us {
