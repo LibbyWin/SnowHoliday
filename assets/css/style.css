@@ -69,10 +69,41 @@ h2 {
     min-height: 100%;
     background-position: center;
     background-size: cover;
+    opacity: 0.95;
 
 }
 
-/**-------------------------------ABOUT US----------------------------------**/
+/**-------------------------------MAP DESTINATIONS-----------------------------------**/
+.title_of_map {
+    padding-top: 30px;;
+}
+
+.snowed_01{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: white;
+    padding-top: 50px;
+font-size: 24px;
+}
+
+.maps_buttons_locations {
+    
+}
+
+
+
+
+
+
+
+
+
+
+div#map {min-height: 500px;}
+
+
+/**-------------------------------ABOUT US-----------------------------------**/
 
 .container {
     padding-top: 30px;
@@ -95,7 +126,6 @@ h2 {
 }
 
 h1 {
-
     text-align: center;
 }
 
@@ -119,7 +149,6 @@ p {
     margin-right: auto;
     margin-left: auto;
 }
-
 
 .btn_primary {
     background: #71777b;
@@ -171,10 +200,6 @@ input[type=submit]:hover {
     background-color: transparent;
     padding: 20px;
 }
-
-
-
-
 
 /**-------------------------------FOOTER-------------------------------------**/
 
