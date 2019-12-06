@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./libraries/bootstrap.min.css" type="text/css" />
 
-
+    <link rel="javascript" href="assests/js/JScript.js" type="text/css" />
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
     <title>Snow Destinations</title>
 </head>
@@ -67,20 +67,35 @@
             </p>
             <br>
             <p class="button-below">
-                Find the best powdered snow for your snowboarding needs!
+                Find the best powder snow for your snowboarding needs!
             </p>
-       <div class="row">
+            <div class="row">
                 <a href="#destinations" class="btn btn_primary">Destinations...</a>
-        </div>
+            </div>
         </div>
 
     </section>
 
     <!-------------------------------DESTINATIONS------------------------------>
 
-    <section id="destinations">
+    <section id="destinations" class="background-padding maps">
+        <div class="row no-gutters">
+            <div class="col-sm-12">
+                <div class="title_of_map">
+                    <h1 class="snowed">Snowboarders Paradise</h1>
+                    <div class="map_buttons_locations">
+                        <!-- the buttons locations eg uk usa nz -->
 
 
+
+
+                        <div id="map">
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
     </section>
 
     <!---------------------------------CONTACT--------------------------------->
@@ -117,9 +132,15 @@
         </div>
     </footer>
 
+    function initMap () { var map = new google.maps.Map(document.getElementById("map"), { zoom: 3; center: { lat: 54.5260, lng: 15.2551, } }); }
+
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
 
-
+    <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js">
+    </script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBXol4aPr3d48zbJNOGw89S1q18J9ghE4c&callback=initMap">
+    </script>
 
 
 </body>
