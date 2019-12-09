@@ -13,7 +13,6 @@ body {
 }
 
 h2 {
-    font-family: Oswald;
     text-transform: uppercase;
     letter-spacing: 4px;
     color: gray;
@@ -40,6 +39,7 @@ h2 {
 #menu li {
     float: right;
     margin-right: 30px;
+    font-size: 15px;
 }
 
 #menu a {
@@ -74,35 +74,104 @@ h2 {
 }
 
 /**-------------------------------MAP DESTINATIONS-----------------------------------**/
+
 .title_of_map {
-    padding-top: 30px;;
+    padding-top: 30px;
+    ;
 }
 
-.snowed_01{
+.snowed_01 {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
     color: white;
     padding-top: 50px;
-font-size: 24px;
+    font-size: 24px;
 }
 
-.maps_buttons_locations {
-    
+.snowed {
+    padding-bottom: 30px;
 }
-
-
-
-
-
-
-
-
 
 
 #map {
     min-height: 700px;
 }
+
+/**-------------------------------INFO---------------------------------------**/
+
+.app-section-header {
+  font-size: 30px;
+  padding-bottom: 1.5em;
+}
+
+h3 {
+  letter-spacing: 7px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 0;
+  padding-top: 1em;
+  padding-bottom: .5em;
+  font-size: 1.5em;
+  color: white;
+}
+
+.h5 {
+  margin-bottom: 1em;
+  margin-top: 1em;
+  color: white;
+}
+
+.bg-body .row {
+  text-align: center;
+  padding-top: 10px;
+}
+
+
+.bg {
+  background-color: #252525;
+  border-radius: 2.5%;
+  width: auto;
+  height: 80%;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  text-align: center;
+  padding: 40px;
+  margin: 4% 7%;
+  display: inline-block;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  padding-bottom: 10px;
+  letter-spacing: 3px;
+}
+
+.bg-body 
+.applications-text {
+  font-size: 15px;
+  color: #c7c7c7;
+}
+
+.scroll-applications,
+.cards {
+  text-align: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+
 
 /**-------------------------------ABOUT US-----------------------------------**/
 
@@ -117,13 +186,13 @@ font-size: 24px;
     color: gray;
 }
 
-.snowed{
+.snowed {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
     color: white;
     padding-top: 50px;
-    font-size:3.5em;
+    font-size: 3.5em;
 }
 
 h1 {
@@ -202,6 +271,16 @@ input[type=submit]:hover {
     padding: 20px;
 }
 
+/**-------------------------------DIVIDER-------------------------------------**/
+
+hr {
+  width: 200px;
+  height: 3px;
+  border: 0;
+  background-color: grey;
+  margin-top: 2em;
+
+}
 /**-------------------------------FOOTER-------------------------------------**/
 
 .footer-bottom {
