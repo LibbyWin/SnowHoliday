@@ -18,7 +18,7 @@
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="assets/css/style.css" type="text/css"/>
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
     <title>Snow Destinations</title>
 </head>
 
@@ -136,65 +136,13 @@
         </div>
     </footer>
 
-<script>
-        function initMap() {
-            var map = new google.maps.Map(document.getElementById("map"), {
-                zoom: 3,
-                center: {
-                    lat: 50.619261,
-                    lng: -33.134766
-                }
-            });
-         
-        var labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-            var locations = [{
-                lat: 46.193646,
-                lng: 6.773301
-            }, {
-                lat: 47.136266,
-                lng: 10.268162
-            }, {
-                lat: 42.543433,
-                lng: 1.733681
-            }, {
-                lat: 50.122180,
-                lng: -122.957228
-            }, {
-                lat: 51.177105,
-                lng: -115.568315
-            }, {
-                lat: 39.481223,
-                lng: -106.066729
-            }, {
-                lat: 43.069520,
-                lng: 142.614962
-            }, {
-                lat: -44.872167,
-                lng: 168.948805
-            }, {
-                lat: -44.850923,
-                lng: 168.939220
-            }];
-        
-        
-            var markers = locations.map(function(location, i) {
-                return new google.maps.Marker({
-                    position: location,
-                    label: labels[i % labels.length]
-                });
-            });
-            
-            var markerCluster = new MarkerClusterer(map, markers, {
-                imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'
-            });
-        }
-    </script>
-</script>
 
     <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
 
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBXol4aPr3d48zbJNOGw89S1q18J9ghE4c&callback=initMap"></script>
 
+    <script type="text/javascript" src="assets/js/maps.js"></script>
+    
 </body>
 
 </html>
