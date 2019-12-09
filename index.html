@@ -5,14 +5,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
-    <link rel="javascript" href="assets/js/JScript.js" type="text/css" />
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css"/>
     <title>Snow Destinations</title>
 </head>
 
@@ -124,9 +130,6 @@
         <div class="containter-fluid">
             <div class="footer-bottom">
                 <div class="col align-self-center icons">
-                    <a href="https://www.linkedin.com/company/tuigroup/" target="_blank"><i class="fab fa-linkedin-in alignment"></i></a>
-                    <a href="https://www.facebook.com/TUIUnitedKingdom/?ref=br_rs" target="_blank"><i class="fab fa-facebook"></i></a>
-                    <a href="https://twitter.com/TUIUK?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank"><i class="fab fa-twitter"></i></a>
                     <p class="snowedunder">Snowed Under</p>
                 </div>
             </div>
@@ -134,20 +137,63 @@
     </footer>
 
 <script>
-    
-     function initMap () { var map = new google.maps.Map(document.getElementById("map"), { zoom: 3; center: { lat: 54.5260, lng: 15.2551, } }); }
+        function initMap() {
+            var map = new google.maps.Map(document.getElementById("map"), {
+                zoom: 3,
+                center: {
+                    lat: 50.619261,
+                    lng: -33.134766
+                }
+            });
+         
+        var labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+            var locations = [{
+                lat: 46.193646,
+                lng: 6.773301
+            }, {
+                lat: 47.136266,
+                lng: 10.268162
+            }, {
+                lat: 42.543433,
+                lng: 1.733681
+            }, {
+                lat: 50.122180,
+                lng: -122.957228
+            }, {
+                lat: 51.177105,
+                lng: -115.568315
+            }, {
+                lat: 39.481223,
+                lng: -106.066729
+            }, {
+                lat: 43.069520,
+                lng: 142.614962
+            }, {
+                lat: -44.872167,
+                lng: 168.948805
+            }, {
+                lat: -44.850923,
+                lng: 168.939220
+            }];
+        
+        
+            var markers = locations.map(function(location, i) {
+                return new google.maps.Marker({
+                    position: location,
+                    label: labels[i % labels.length]
+                });
+            });
+            
+            var markerCluster = new MarkerClusterer(map, markers, {
+                imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'
+            });
+        }
+    </script>
 </script>
 
+    <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
 
-
-    <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js">
-    </script>
-
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBXol4aPr3d48zbJNOGw89S1q18J9ghE4c&callback=initMap">
-    </script>
-
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBXol4aPr3d48zbJNOGw89S1q18J9ghE4c&callback=initMap"></script>
 
 </body>
 
