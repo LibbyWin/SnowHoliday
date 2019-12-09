@@ -157,6 +157,7 @@ h3 {
 .applications-text {
   font-size: 15px;
   color: #c7c7c7;
+  line-height: inherit;
 }
 
 .scroll-applications,
@@ -202,6 +203,7 @@ h1 {
 p {
     text-align: center;
     font-size: 20px;
+    color: #afafaf;
 }
 
 .button-below {
