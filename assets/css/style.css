@@ -191,8 +191,8 @@ h3 {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    color: white;
-    padding-top: 50px;
+    color: #c5c5c5;
+    padding-top: 40px;
     font-size: 3.5em;
 }
 
@@ -271,6 +271,16 @@ input[type=submit]:hover {
 .contact {
     background-color: transparent;
     padding: 20px;
+}
+
+
+
+/**-------------------------------SCROLL TOP BUTTON-------------------------------------**/
+#scroll-top {
+    display: inline-block;
+    background-color: red;
+    width: 50px;
+    height: 50px;
 }
 
 /**-------------------------------DIVIDER-------------------------------------**/
