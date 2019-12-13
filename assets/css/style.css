@@ -297,6 +297,10 @@ input[type=submit]:hover {
     line-height: 40px;
 }
 
+#scroll-top:hover {
+    background-color: gray;
+    cursor: pointer;
+}
 /**-------------------------------DIVIDER-------------------------------------**/
 
 hr {
