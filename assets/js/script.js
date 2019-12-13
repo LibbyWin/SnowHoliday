@@ -8,3 +8,9 @@ $(window).scroll(function() {
   }  
 });
 
+btn.on('click', function(s) {
+  s.preventDefault();
+  $('html, body').animate({
+    scrollTop:0
+  }, '450');
+  });
