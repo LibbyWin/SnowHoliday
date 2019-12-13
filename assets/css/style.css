@@ -301,6 +301,12 @@ input[type=submit]:hover {
     background-color: gray;
     cursor: pointer;
 }
+
+#scroll-top:show {
+    visibility: inherit;
+    opacity: 1;
+}
+
 /**-------------------------------DIVIDER-------------------------------------**/
 
 hr {
