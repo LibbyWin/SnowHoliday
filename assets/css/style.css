@@ -305,7 +305,7 @@ input[type=submit]:hover {
     cursor: pointer;
 }
 
-#scroll-top:show {
+#scroll-top.show {
     visibility: visible;
     opacity: 1;
 }
