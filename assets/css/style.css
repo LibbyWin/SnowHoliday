@@ -288,6 +288,8 @@ input[type=submit]:hover {
     z-index: 1000;
     transition: background-color .5s, opacity .7s, visibility .7s;
     border-radius: 2px;
+    bottom: 20px;
+    right: 20px;
 }
 
 #scroll-top::after {
@@ -295,6 +297,7 @@ input[type=submit]:hover {
     font-size: 24px;
     color: white!important;
     line-height: 40px;
+    content: "/f077";
 }
 
 #scroll-top:hover {
@@ -303,7 +306,7 @@ input[type=submit]:hover {
 }
 
 #scroll-top:show {
-    visibility: inherit;
+    visibility: visible;
     opacity: 1;
 }
 
