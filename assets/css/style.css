@@ -24,38 +24,6 @@ h2 {
     float: left;
     font-size-adjust: 280%;
 }
-//*
-#menu {
-    font-size: 110%;
-    list-style-type: none;
-    letter-spacing: 4px;
-}
-
-#logo,
-#menu {
-    line-height: 75px;
-}
-
-#menu li {
-    float: right;
-    margin-right: 30px;
-    font-size: 15px;
-}
-
-#menu a {
-    text-decoration: none;
-    color: inherit;
-}
-
-#menu a:hover {
-    border-bottom: 1px solid #777777;
-}
-
-.active {
-    border-bottom: 1px solid #777777;
-}
-*/
-
 
 
 /**-------------------------------MAIN PAGE----------------------------------**/
