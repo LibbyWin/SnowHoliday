@@ -24,7 +24,7 @@ h2 {
     float: left;
     font-size-adjust: 280%;
 }
-
+//*
 #menu {
     font-size: 110%;
     list-style-type: none;
@@ -54,6 +54,8 @@ h2 {
 .active {
     border-bottom: 1px solid #777777;
 }
+*/
+
 
 
 /**-------------------------------MAIN PAGE----------------------------------**/
@@ -301,7 +303,6 @@ input[type=submit]:hover {
 }
 
 #scroll-top:hover {
-
     cursor: pointer;
 }
 
