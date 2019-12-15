@@ -29,13 +29,14 @@ function initMap() {
     }, {
         lat: -44.872167,
         lng: 168.948805  //New Zealand - Mount Cardrona
-    }, {
+    },   {
         lat: -44.850923,
-        lng: 168.939220  // Japan - tomamu
-    }, {
+        lng: 168.939220  // New Zealand - Treble cone
+    },{
         lat: 43.069520,
-        lng: 142.614962   // New Zealand - Treble cone
-    }];
+        lng: 142.614962   //Japan - tomamu 
+    },
+    ];
 
 
     var markers = locations.map(function(location, i) {
