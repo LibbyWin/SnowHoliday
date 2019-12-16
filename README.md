@@ -88,7 +88,7 @@ When deploying on github please follow these steps
 ## Deployment locally
 cloning the repository
 1. Navigate to SnowHoliday
-2. At the top og the page click @clone or download@
+2. At the top og the page click 'clone or download'
 3. Copy the URL in the drop box when clicked
 4. Using a IDE open up a terminal
 5. Navigate to the file location
