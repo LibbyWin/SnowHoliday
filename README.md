@@ -52,15 +52,15 @@ With the image being relatively large at the start of the website it invites peo
 * A pop out navigation bar.
 
 ## Languages used
-HTML
-CSS
-JavaScript
-Tools and libraries
-Bootstrap
-Googlemaps
-Font awesome
-Github
-JQuery
+* HTML
+* CSS
+* JavaScript
+* Tools and libraries
+* Bootstrap
+* Googlemaps
+* Font awesome
+* Github
+* JQuery
 
 ## Testing
 Throughout the whole project there was rigorous testing down to make sure that the Google Maps section worked efficiently and didn’t have any glitches or faults when loading. This allowed me run the website with a max load time of 10-20 seconds load time depending on internet accessibility.
@@ -98,4 +98,7 @@ cloning the repository
 
 git clone https://github.com/Wini996/SnowHoliday.git 
 
-Credits 
+## Credits
+Throughout this project i need to thank the Code Institute tutorials for guiding me through the use of Google Maps and API's.
+Thanks to Eric Terwan, for his tutorial on Navigation bar which pops out on desktop and mobile devices.
+Thanks to 
