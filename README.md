@@ -63,18 +63,20 @@ Github
 JQuery
 
 ## Testing
-
-## Issues
-
-## Overall responsiveness
+Throughout the whole project there was rigorous testing down to make sure that the Google Maps section worked efficiently and didn’t have any glitches or faults when loading. This allowed me run the website with a max load time of 10-20 seconds load time depending on internet accessibility.
+Multiple testing was done on various internet browsers such as Firefox, Safari, Internet Explorer and Chrome. There were no issues that i could find personally but it was noted that…
 
 ## Overall design
-
+Personally i like the overall design of the site as it is minimalistic and clean to the eye of the user. However many websites use lighter colours to draw in their clients but with a more sleek design it appeals to those who want a relaxing/sleek holiday.
+* 
 
 ## Overall interactive maps
 
-## Bugs
 
+## Bugs
+originally there was an issue with the google maps where it wouldn’t load on the screen but this issue was resolved and fixed thanks to some editing in the stylesheet.css.
+Another issue that was found was the ‘scroll to top’ button had a boarder around it but was outta place. I resolved this by taking out the boarder to give the website a more cleaner look. 
+Other than the two problems above, there doesn’t seem to be anything which is causing a glitch to the website itself. 
 
 ## Deployment
 When deploying on github please follow these steps
