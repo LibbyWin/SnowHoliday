@@ -1,3 +1,6 @@
+// This function allows for a Google Maps to be present on my website,
+// With the zoom set to 2, there is a large visability of the globe and the central co-ordinates are within the North Atlantic Ocean.
+
 function initMap() {
     var map = new google.maps.Map(document.getElementById("map"), {
         zoom: 2,
@@ -7,7 +10,11 @@ function initMap() {
         }
     });
 
+
+//In order to create labels, ive created a string of letters which will give each marker a letter which will be linked to its desscription.
     var labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+
+// the string will be paired with this array
     var locations = [{
         lat: 46.193646,   //france - Avariaz
         lng: 6.773301
@@ -38,7 +45,7 @@ function initMap() {
     },
     ];
 
-
+//This loops through each item in the locations array, the location is the current value of where it is in the array and the i is the index number of where it is in the array.
     var markers = locations.map(function(location, i) {
         return new google.maps.Marker({
             position: location,
@@ -46,6 +53,8 @@ function initMap() {
         });
     });
 
+
+//Adding the google sample code to add a marker image to the map allowing for a cluster to be shown if the locations are close together.
     var markerCluster = new MarkerClusterer(map, markers, {
         imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'
     });
