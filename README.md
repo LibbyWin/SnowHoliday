@@ -1,17 +1,19 @@
 # Holiday destinations
 
-UX user experience
 ## Project goals
 The goal of this project is to help users find the ideal snowboarding destination based on their needs. 
 This project was aimed towards snowboarders who wished to find the best places to board all around the world.
+
 ## User goals
 To use a website that helps them find out information about the best snow holiday for them.
 Have an interactive map top allow users to pick a holiday destination.
 Contact details provided to allow the user to ask any questions based on their holiday.
 Interactive on both desktop and mobile devices
+
 ## Site owner goals
 Gather information on where people tend to go when snowboarding.
 Receive contact details through the use of contact form. 
+
 ## User requirements
 * Have an interactive Google maps available to see certain holiday destinations.
 * Navigate through the website by using an popout nav bar to save from clutter on the desktop and mobile site.
@@ -51,7 +53,7 @@ With the image being relatively large at the start of the website it invites peo
 * Form validation at the end of the contact form to decrease spam.
 * A pop out navigation bar.
 
-## Languages used
+## Technologies Used
 * HTML
 * CSS
 * JavaScript
@@ -63,18 +65,22 @@ With the image being relatively large at the start of the website it invites peo
 * JQuery
 
 ## Testing
-Throughout the whole project there was rigorous testing down to make sure that the Google Maps section worked efficiently and didn’t have any glitches or faults when loading. This allowed me run the website with a max load time of 10-20 seconds load time depending on internet accessibility.
-Multiple testing was done on various internet browsers such as Firefox, Safari, Internet Explorer and Chrome. There were no issues that i could find personally but it was noted that…
+* Throughout the whole project there was rigorous testing down to make sure that the Google Maps section worked efficiently and didn’t have any glitches or faults when loading. This allowed me run the website 
+with a max load time of 10-20 seconds load time depending on internet accessibility.
+* Multiple testing was done on various internet browsers such as Firefox, Safari, Internet Explorer and Chrome. There were no issues that I could find personally but it was noted that when testing on the Iphone SE, 
+but found that the site requires horizontal scroll on screens as large as the Iphone X. 
+* The only item that is off screen on a mobile device is the 'scroll to top' button. This was done on purpose. When holding a mobile phone in one hand (usually the right hand), it is very easy to accidently mis-touch 
+the screen and tap on the bottom right corner with your palm. This doesn't affect the user experience as all the content is visible even without horizontal scroll and keeps a vertical screen clean.  
 
 ## Overall design
-Personally i like the overall design of the site as it is minimalistic and clean to the eye of the user. However many websites use lighter colours to draw in their clients but with a more sleek design it appeals to those who want a relaxing/sleek holiday.
-* 
+Personally I like the overall design of the site as it is minimalistic and clean to the eye of the user. However many websites use lighter colours to draw in their clients but with a more sleek design it appeals to 
+those who want a relaxing/sleek holiday.
 
 ## Overall interactive maps
 
 
 ## Bugs
-originally there was an issue with the google maps where it wouldn’t load on the screen but this issue was resolved and fixed thanks to some editing in the stylesheet.css.
+Originally there was an issue with the google maps where it wouldn’t load on the screen but this issue was resolved and fixed thanks to some editing in the stylesheet.css.
 Another issue that was found was the ‘scroll to top’ button had a boarder around it but was outta place. I resolved this by taking out the boarder to give the website a more cleaner look. 
 Other than the two problems above, there doesn’t seem to be anything which is causing a glitch to the website itself. 
 
@@ -99,6 +105,6 @@ cloning the repository
 git clone https://github.com/Wini996/SnowHoliday.git 
 
 ## Credits
-Throughout this project i need to thank the Code Institute tutorials for guiding me through the use of Google Maps and API's.
+Throughout this project I need to thank the Code Institute tutorials for guiding me through the use of Google Maps and API's.
 Thanks to Eric Terwan, for his tutorial on Navigation bar which pops out on desktop and mobile devices.
-Thanks to 
+Thanks to Brian Macharia, for the help and support with this project. All suggestions to this site we revised and edit had been made to make the website more responsive and user friendly. 
