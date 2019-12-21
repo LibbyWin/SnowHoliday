@@ -5,15 +5,14 @@ The goal of this project is to help users find the ideal snowboarding destinatio
 This project was aimed towards snowboarders who wished to find the best places to board all around the world.
 
 ## User goals
-To use a website that helps them find out information about the best snow holiday for them.
-Have an interactive map top allow users to pick a holiday destination.
-Contact details provided to allow the user to ask any questions based on their holiday.
-Interactive on both desktop and mobile devices
+* To use a website that helps them find out information about the best snow holiday for them.
+* Have an interactive map top allow users to pick a holiday destination.
+* Contact details provided to allow the user to ask any questions based on their holiday.
+* Interactive on both desktop and mobile devices.
 
 ## Site owner goals
 * Gather information on where people tend to go when snowboarding.
-* Receive contact details through the use of contact form. 
-* ** The contact form does not send to a local email account. However this if a future feature which will be added.
+* Receive contact details through the use of contact form. The contact form does not send to a local email account. However this if a future feature which will be added.
 
 ## User requirements
 * Have an interactive Google maps available to see certain holiday destinations.
@@ -35,7 +34,7 @@ I chose to use the font Merriweather as it applies a very simple yet seay to rea
 ## Icons
 The only icon I thought was neccessary for the webiste to contain was a 'scroll to top' arrow, located int he bottom right hand corner of the screen.
 This is presented to allow for the user to easily scroll to the top of the webiste, allowing for fast and easier access to the navigation bar. 
-However, i have removed this from mobile viewing as it is easy to miss click that section of the screen, which could be frustrating for the user when 
+However, I have removed this from mobile viewing as it is easy to miss click that section of the screen, which could be frustrating for the user when 
 
 ## Colours
 By choosing white text on a dark grey background allows the website to have a sleak design. 
@@ -110,7 +109,7 @@ cloning the repository
 5. Navigate to the file location
 6. Copy the following code and input it into your terminal to clone snow holiday!
 
-git clone https://github.com/Wini996/SnowHoliday.git 
+`git clone https://github.com/Wini996/SnowHoliday.git `
 
 ## Credits
 Throughout this project I need to thank the Code Institute tutorials for guiding me through the use of Google Maps and API's.

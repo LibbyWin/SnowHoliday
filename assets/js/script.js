@@ -1,3 +1,4 @@
+//Added function to allow a user to scroll to the top of the page.
 var btn = $('#scroll-top');
 
 $(window).scroll(function() {
