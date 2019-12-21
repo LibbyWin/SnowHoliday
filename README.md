@@ -80,7 +80,7 @@ those who want a relaxing/sleek holiday.
 
 ## Bugs
 Originally there was an issue with the google maps where it wouldn’t load on the screen but this issue was resolved and fixed thanks to some editing in the stylesheet.css.
-Another issue that was found was the ‘scroll to top’ button had a boarder/background around it. however when I tried to impliment this the background wansnt centered with the icon. 
+Another issue that was found was the ‘scroll to top’ button had a boarder/background around it. However when I tried to impliment this the background wansnt centered with the icon. 
 To resolve this I decided to remove this feature completely in order to keep to a clean and minimal look to the overall website. 
 Other than the two problems above, there doesn’t seem to be anything which is causing a glitch to the website itself. 
 
