@@ -85,13 +85,18 @@ Another issue that was found was the ‘scroll to top’ button had a boarder ar
 Other than the two problems above, there doesn’t seem to be anything which is causing a glitch to the website itself. 
 
 ## Deployment
-When deploying on github please follow these steps
-1. Open the github browser
-2. Sign in
-3. Click my repositories
-4. Select snow holiday
-5. At the top of the page select the web link
-6. The web link will then go live and open itself in a new tap.
+When deploying on github please follow these steps.
+1. Open the github browser.
+2. Sign in.
+3. Create a new repository. This will get you started!
+4. Create a name for your site.
+5. Within the setting tab, scroll down to a section called 'Github Pages'.
+6. Under the 'source' tab, click the dropdown and select 'master branch'. This will create a live site link for your website.
+
+When commiting to Github, follow theres steps...
+1. Ensure you are on the /environment/ in your ternimal.
+2. If not, use 'cd ..' 
+
 
 ## Deployment locally
 cloning the repository
