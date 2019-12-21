@@ -11,8 +11,9 @@ Contact details provided to allow the user to ask any questions based on their h
 Interactive on both desktop and mobile devices
 
 ## Site owner goals
-Gather information on where people tend to go when snowboarding.
-Receive contact details through the use of contact form. 
+* Gather information on where people tend to go when snowboarding.
+* Receive contact details through the use of contact form. 
+* ** The contact form does not send to a local email account. However this if a future feature which will be added.
 
 ## User requirements
 * Have an interactive Google maps available to see certain holiday destinations.
@@ -76,9 +77,6 @@ the screen and tap on the bottom right corner with your palm. This doesn't affec
 Personally I like the overall design of the site as it is minimalistic and clean to the eye of the user. However many websites use lighter colours to draw in their clients but with a more sleek design it appeals to 
 those who want a relaxing/sleek holiday.
 
-## Overall interactive maps
-
-
 ## Bugs
 Originally there was an issue with the google maps where it wouldn’t load on the screen but this issue was resolved and fixed thanks to some editing in the stylesheet.css.
 Another issue that was found was the ‘scroll to top’ button had a boarder around it but was outta place. I resolved this by taking out the boarder to give the website a more cleaner look. 
@@ -95,8 +93,10 @@ When deploying on github please follow these steps.
 
 When commiting to Github, follow theres steps...
 1. Ensure you are on the /environment/ in your ternimal.
-2. If not, use 'cd ..' 
-
+2. If not, use `cd ..` to got back one file at a time till you reach 'environment'.
+3. Enter `git add .` to add all content to github.
+4. `git commit -m "Initial commit` This code will commit your code and add a a small description.
+5. `git push` will upload this file to a remote repository.
 
 ## Deployment locally
 cloning the repository
