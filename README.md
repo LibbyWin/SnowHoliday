@@ -1,8 +1,12 @@
 # Holiday destinations
+Find the perfect snowboarding destination around the work! We've picked out the best places in the world suitable for all your snowboarding needs!
+Perfect for kids, couples, travellers and everyone else inbetween!
 
 ## Project goals
 The goal of this project is to help users find the ideal snowboarding destination based on their needs. 
 This project was aimed towards snowboarders who wished to find the best places to board all around the world.
+
+
 
 ## User goals
 * To use a website that helps them find out information about the best snow holiday for them.
@@ -59,7 +63,6 @@ below one another. This would allow for a cleaner and less crowded appearance.
 * HTML
 * CSS
 * JavaScript
-* Tools and libraries
 * Bootstrap
 * Googlemaps
 * Font awesome
@@ -80,7 +83,7 @@ those who want a relaxing/sleek holiday.
 
 ## Bugs
 Originally there was an issue with the google maps where it wouldn’t load on the screen but this issue was resolved and fixed thanks to some editing in the stylesheet.css.
-Another issue that was found was the ‘scroll to top’ button had a boarder/background around it. However when I tried to impliment this the background wansnt centered with the icon. 
+Another issue that was found was the ‘scroll to top’ button had a boarder/background around it. however when I tried to impliment this the background wansnt centered with the icon. 
 To resolve this I decided to remove this feature completely in order to keep to a clean and minimal look to the overall website. 
 Other than the two problems above, there doesn’t seem to be anything which is causing a glitch to the website itself. 
 
@@ -102,10 +105,10 @@ When commiting to Github, follow theres steps...
 
 ## Deployment locally
 cloning the repository
-1. Navigate to SnowHoliday
-2. At the top og the page click 'clone or download'
+1. Navigate to Snow Holiday
+2. At the top of the page click 'clone or download'
 3. Copy the URL in the drop box when clicked
-4. Using a IDE open up a terminal
+4. Using an IDE open up a terminal
 5. Navigate to the file location
 6. Copy the following code and input it into your terminal to clone snow holiday!
 
@@ -114,4 +117,4 @@ cloning the repository
 ## Credits
 Throughout this project I need to thank the Code Institute tutorials for guiding me through the use of Google Maps and API's.
 Thanks to Eric Terwan, for his tutorial on Navigation bar which pops out on desktop and mobile devices.
-Thanks to Brian Macharia, for the help and support with this project. All suggestions to this site we revised and edit had been made to make the website more responsive and user friendly. 
+Thanks to Brian Macharia, for the help and support with this project. All suggestions to this site we revised, and edit had been made to make the website more responsive and user friendly.
