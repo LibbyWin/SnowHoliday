@@ -48,6 +48,8 @@ The background image I chose to use was a free image sourced from a royalty free
 With the image being relatively large at the start of the website it invites people in. Making them question where the image was taken and to make them say 'I'd love to go to somewhere like that!'.
 
 ## Wireframes
+In a seperate folder within my code are my wireframes. This shows how I intended the website to look on desktop. On mobile the only edit that needed to be made was the destinations information all being 
+below one another. This would allow for a cleaner and less crowded appearance. 
 
 ## Features
 * Interactive Google Maps with location markers.
