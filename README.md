@@ -6,8 +6,6 @@ Perfect for kids, couples, travellers and everyone inbetween!
 The goal of this project is to help users find the ideal snowboarding destination based on their needs. 
 This project was aimed towards snowboarders who wished to find the best places to board all around the world.
 
-
-
 ## User goals
 * To use a website that helps them find out information about the best snow holiday for them.
 * Have an interactive map top allow users to pick a holiday destination.
@@ -16,7 +14,7 @@ This project was aimed towards snowboarders who wished to find the best places t
 
 ## Site owner goals
 * Gather information on where people tend to go when snowboarding.
-* Receive contact details through the use of contact form. The contact form does not send to a local email account. However this if a future feature which will be added.
+* Receive contact details through the use of contact form. The contact form does not send to a local email account. However this is a future feature which will be added.
 
 ## User requirements
 * Have an interactive Google maps available to see certain holiday destinations.
@@ -33,12 +31,12 @@ Contact form needs to have a validation system in place to prevent spam and unwa
 The main theme of this webiste was to create a simple yet modern design to a holiday destination website. 
 
 ## Font
-I chose to use the font Merriweather as it applies a very simple yet seay to read style to the final website. The writing isnt too close together and allows for easy reading even on a small device.
+I chose to use the font Merriweather as it applies a very simple yet easy to read style to the final website. The writing isnt too close together and allows for easy reading even on a small device.
 
 ## Icons
-The only icon I thought was neccessary for the webiste to contain was a 'scroll to top' arrow, located int he bottom right hand corner of the screen.
+The only icon I thought was neccessary for the webiste to contain was a 'scroll to top' arrow, located in the bottom right hand corner of the screen.
 This is presented to allow for the user to easily scroll to the top of the webiste, allowing for fast and easier access to the navigation bar. 
-However, I have removed this from mobile viewing as it is easy to miss click that section of the screen, which could be frustrating for the user when 
+
 
 ## Colours
 By choosing white text on a dark grey background allows the website to have a sleak design. 
@@ -88,7 +86,7 @@ To resolve this I decided to remove this feature completely in order to keep to 
 Other than the two problems above, there doesn’t seem to be anything which is causing a glitch to the website itself. 
 
 ## Deployment
-When deploying on github please follow these steps.
+### When deploying on github please follow these steps.
 1. Open the github browser.
 2. Sign in.
 3. Create a new repository. This will get you started!
@@ -96,7 +94,7 @@ When deploying on github please follow these steps.
 5. Within the setting tab, scroll down to a section called 'Github Pages'.
 6. Under the 'source' tab, click the dropdown and select 'master branch'. This will create a live site link for your website.
 
-When commiting to Github, follow theres steps...
+### When commiting to Github, follow theres steps...
 1. Ensure you are on the /environment/ in your ternimal.
 2. If not, use `cd ..` to got back one file at a time till you reach 'environment'.
 3. Enter `git add .` to add all content to github.
